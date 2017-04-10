@@ -1,0 +1,113 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>fsnd portfolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"></li>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-md-6">
+				<img class="img-responsive title-logo" src="images/logo.png" alt="logo">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="text-thin title-super">allison nichole thorp</h1>
+				<h4 class="text-muted">Photography Portfolio</h4>
+			</div>
+		</header>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+		<section class="row">
+			<div class="col-md-12">
+				<img class="img-responsive" src="images/marfa.jpg" alt="marfa">
+			</div>
+		</section>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+		<section class="row">
+			<header class="col-md-12">
+				<h3 class="text-muted text-uppercase">Featured Work</h3>
+			</header>
+		</section>
+		<section class="row text-center">
+			<article class="col-md-4">
+				<img class="img-responsive" src="images/pedernales.jpg" alt="pedernales image" data-toggle="modal" data-target="#pedernales">
+				<h4 class="text-uppercase">Pedernales Falls</h4>
+				<p>Pedernales Falls State Park is located an hour outside of Austin, TX and so very worth the drive. Excellent hikes and even better views.</p>
+			</article>
+			<article class="col-md-4">
+				<img class="img-responsive" src="images/capri.jpg" alt="capri image" data-toggle="modal" data-target="#capri">
+				<h4 class="text-uppercase">Capri</h4>
+				<p>Capri is an island in Italy famous for its lemoncello and blue caves. Go there, drink up and serenade your way through a grotto.</p>
+			</article>
+			<article class="col-md-4">
+				<img class="img-responsive" src="images/ireland.jpg" alt="ireland image" data-toggle="modal" data-target="#ireland">
+				<h4 class="text-uppercase">Ireland</h4>
+				<p>Somewhere in Ireland - doesn't really matter where, the whole dang place is gorgeous. Go and grab a pint of Guiness straight from the source - thank me later.</p>
+			</article>
+		</section>
+	</div>
+	   <!-- Modal -->
+    <div class="modal fade" id="pedernales" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <section class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Pedernales Falls State Park</h4>
+                </header>
+                <article class="modal-body">
+                    <img class="img-responsive" src="images/pedernales.jpg" alt="pedernales image">
+                    What more do you want to know?! Just go visit already!
+                </article>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </footer>
+            </section>
+        </div>
+    </div>
+     <!-- Modal -->
+    <div class="modal fade" id="capri" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <section class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Capri</h4>
+                </header>
+                <article class="modal-body">
+                    <img class="img-responsive" src="images/capri.jpg" alt="capri image">
+                    Italy calls!
+                </article>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </footer>
+            </section>
+        </div>
+    </div>
+     <!-- Modal -->
+    <div class="modal fade" id="ireland" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <section class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Ireland</h4>
+                </header>
+                <article class="modal-body">
+                    <img class="img-responsive" src="images/ireland.jpg" alt="ireland image">
+                    Wherever you go and whatever you do, may the luck of the Irish be there with you!
+                </article>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </footer>
+            </section>
+        </div>
+    </div>
+</body>
